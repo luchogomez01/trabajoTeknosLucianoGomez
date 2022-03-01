@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+.mainIndex {
+  background: linear-gradient(to bottom, #336B87, #90AFC5);
+  text-align: center; }
+
+.fotoStart {
+  width: 650px; }
+
+.fotoStart:hover {
+  filter: saturate(175%);
+  transform: scale(1.1, 1.1); }
+
+.mainJuegos {
+  background: linear-gradient(to bottom, #336B87, #90AFC5);
+  text-align: center; }
+  .mainJuegos .tituloJuegos {
+    text-decoration: underline; }
+
+.fotoTateti {
+  width: 350px;
+  margin: 150px 60px 400px 60px;
+  border-radius: 10%; }
+
+.fotoTateti:hover {
+  transform: scale(0.9, 0.9); }
+
+.fotoPalabras {
+  width: 232px;
+  margin: 150px 60px 400px 100px;
+  border-radius: 10%; }
+
+.fotoPalabras:hover {
+  transform: scale(0.9, 0.9); }
+
+.bodyTa {
+  background: linear-gradient(to bottom, #336B87, #90AFC5); }
+
+.mainTa {
+  text-align: center; }
+  .mainTa .tituloTa {
+    text-decoration: underline; }
+
+.contenedorJuego {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 306px;
+  margin: 85px auto; }
+  .contenedorJuego #casillaUno, .contenedorJuego #casillaCuatro {
+    width: 100px;
+    height: 100px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px; }
+  .contenedorJuego #casillaTres, .contenedorJuego #casillaSeis {
+    width: 100px;
+    height: 100px;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px; }
+  .contenedorJuego #casillaDos {
+    width: 100px;
+    height: 100px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px; }
+  .contenedorJuego #casillaCinco {
+    width: 100px;
+    height: 100px;
+    border-bottom: 1px solid black;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px; }
+  .contenedorJuego #casillaNueve {
+    width: 100px;
+    height: 100px;
+    border-left: 1px solid black;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px; }
+  .contenedorJuego #casillaSiete {
+    width: 100px;
+    height: 100px;
+    border-right: 1px solid black;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px; }
+  .contenedorJuego #casillaOcho {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px; }
+
+.textoUno {
+  background: #90AFC5;
+  color: black;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 23px;
+  width: 312px;
+  margin: 85px auto;
+  padding: 30px;
+  border: 3px beige;
+  border-radius: 2%;
+  border-style: double;
+  overflow: auto; }
+
+.bodyPa {
+  background: linear-gradient(to bottom, #336B87, #90AFC5); }
+
+.mainPa {
+  text-align: center; }
+  .mainPa .tituloTa {
+    text-decoration: underline; }
+
+.sectionUno, .sectionDos, .sectionTres {
+  margin: 80px; }
+
+.nivel {
+  color: beige;
+  margin-bottom: 45px; }
+
+.textoDos {
+  background: #90AFC5;
+  color: black;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 23px;
+  width: 312px;
+  margin: 85px auto;
+  padding: 30px;
+  border: 3px beige;
+  border-radius: 2%;
+  border-style: double;
+  overflow: auto; }

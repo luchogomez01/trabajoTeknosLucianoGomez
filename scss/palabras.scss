@@ -1,0 +1,33 @@
+$mist: #90AFC5;
+.bodyPa{
+background: linear-gradient(to bottom,#336B87,#90AFC5); 
+}
+.mainPa{
+    
+    text-align: center;
+    .tituloTa{
+      text-decoration: underline;
+    }
+}
+
+.sectionUno, .sectionDos, .sectionTres{
+    margin: 80px;
+}
+.nivel{
+  color: beige;
+  margin-bottom: 45px;
+}
+.textoDos{
+  background: $mist;
+  color: black;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 23px;
+  width: 312px;
+  margin: 85px auto;
+  padding: 30px;
+  border: 3px beige;
+  border-radius: 2%;
+  border-style: double;
+  overflow: auto;
+}

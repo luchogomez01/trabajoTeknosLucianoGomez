@@ -1,0 +1,89 @@
+$mist: #90AFC5;
+.bodyTa{
+  background: linear-gradient(to bottom,#336B87,#90AFC5)
+}
+.mainTa{
+    text-align: center;
+    .tituloTa{
+      text-decoration: underline;
+    }
+}
+  
+  .contenedorJuego {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 306px;
+    margin: 85px auto;
+      #casillaUno, #casillaCuatro{
+        width: 100px;
+        height: 100px;
+        border-right: 1px solid black;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+        line-height: 100px;
+        font-size: 60px;  
+      }
+
+      #casillaTres, #casillaSeis{
+        width: 100px;
+        height: 100px;
+        border-left: 1px solid black;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+        line-height: 100px;
+        font-size: 60px;  
+      }
+      #casillaDos{
+        width: 100px;
+        height: 100px;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+        line-height: 100px;
+        font-size: 60px;  
+      }
+      #casillaCinco{
+        width: 100px;
+        height: 100px;
+        border-bottom: 1px solid black;
+        cursor: pointer;
+        line-height: 100px;
+        font-size: 60px;  
+      }
+      #casillaNueve{
+        width: 100px;
+        height: 100px;
+        border-left: 1px solid black;
+        cursor: pointer;
+        line-height: 100px;
+        font-size: 60px;  
+      }
+      #casillaSiete{
+        width: 100px;
+        height: 100px;
+        border-right: 1px solid black;
+        cursor: pointer;
+        line-height: 100px;
+        font-size: 60px;  
+      }
+      #casillaOcho{
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+        line-height: 100px;
+        font-size: 60px; 
+      }
+}
+.textoUno{
+  background: $mist;
+  color: black;
+  text-align: justify;
+  font-size: 12px;
+  line-height: 23px;
+  width: 312px;
+  margin: 85px auto;
+  padding: 30px;
+  border: 3px beige;
+  border-radius: 2%;
+  border-style: double;
+  overflow: auto;
+}
