@@ -1,9 +1,8 @@
 function main (){
-    fPalabraUno ()
-    fPalabraDos () 
-    fPalabraTres ()
-    fPalabraGanadora ()
+    nivelUno()
+    nivelDos()
+    nivelTres()
 }
 
-main()
 
+main ()

@@ -2,17 +2,6 @@
   margin: 0px;
   padding: 0px; }
 
-.mainIndex {
-  background: linear-gradient(to bottom, #336B87, #90AFC5);
-  text-align: center; }
-
-.fotoStart {
-  width: 650px; }
-
-.fotoStart:hover {
-  filter: saturate(175%);
-  transform: scale(1.1, 1.1); }
-
 .mainJuegos {
   background: linear-gradient(to bottom, #336B87, #90AFC5);
   text-align: center; }
